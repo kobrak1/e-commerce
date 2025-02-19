@@ -10,7 +10,7 @@ function Header({ setIsSearchShow }) {
   
   return (
     <header>
-      <GlobalNotification status={true} /> {/* Will be added a function to handle the state of Global Notification*/}
+      <GlobalNotification status={false} /> {/* Will be added a function to handle the state of Global Notification*/}
       <div className="header-row">
         <div className="container">
           <div className="header-wrapper">
