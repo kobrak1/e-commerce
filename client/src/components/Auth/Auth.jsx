@@ -7,8 +7,7 @@ const Auth = () => {
     <section className="account-page">
       <div className="container">
         <div className="account-wrapper">
-          <Login />
-          <Register />
+          Login and Register pages will be here soon ...
         </div>
       </div>
     </section>
