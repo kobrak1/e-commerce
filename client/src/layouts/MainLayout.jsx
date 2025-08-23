@@ -23,7 +23,7 @@ const MainLayout = ({ children }) => {
       <Dialog isDialogShow={isDialogShow} setIsDialogShow={setIsDialogShow} />
       <Search isSearchShow={isSearchShow} setIsSearchShow={setIsSearchShow} />
       <Header setIsSearchShow={setIsSearchShow} />
-      {children}      
+      {children}
       <Footer />
     </div>
   );
